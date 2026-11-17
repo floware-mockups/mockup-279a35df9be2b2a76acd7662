@@ -1,0 +1,170 @@
+{
+  "title": "Gestione pratiche dello sportello al cittadino",
+  "description": "Prototipo per consultare le pratiche, verificare stato e scadenze e registrare nuovi aggiornamenti con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle pratiche dello sportello e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "18"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "5"
+        },
+        {
+          "label": "In attesa di documenti",
+          "value": "4"
+        },
+        {
+          "label": "Completate questo mese",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-035-101",
+          "Nubi 01",
+          "Residenza",
+          "04/03/2026",
+          "18/03/2026",
+          "In lavorazione"
+        ],
+        [
+          "PR-035-102",
+          "Vela 02",
+          "Permesso di sosta",
+          "05/03/2026",
+          "19/03/2026",
+          "In attesa di documenti"
+        ],
+        [
+          "PR-035-103",
+          "Lumo 03",
+          "Iscrizione al servizio",
+          "06/03/2026",
+          "20/03/2026",
+          "Da assegnare"
+        ],
+        [
+          "PR-035-104",
+          "Nubi 04",
+          "Certificazione",
+          "07/03/2026",
+          "21/03/2026",
+          "Completata"
+        ],
+        [
+          "PR-035-105",
+          "Vela 05",
+          "Residenza",
+          "08/03/2026",
+          "22/03/2026",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella consultabile e filtrabile per controllare richiedenti, servizi, stati e scadenze.",
+      "metrics": [
+        {
+          "label": "Pratiche visualizzate",
+          "value": "5"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-035-101",
+          "Nubi 01",
+          "Residenza",
+          "04/03/2026",
+          "18/03/2026",
+          "In lavorazione"
+        ],
+        [
+          "PR-035-102",
+          "Vela 02",
+          "Permesso di sosta",
+          "05/03/2026",
+          "19/03/2026",
+          "In attesa di documenti"
+        ],
+        [
+          "PR-035-103",
+          "Lumo 03",
+          "Iscrizione al servizio",
+          "06/03/2026",
+          "20/03/2026",
+          "Da assegnare"
+        ],
+        [
+          "PR-035-104",
+          "Nubi 04",
+          "Certificazione",
+          "07/03/2026",
+          "21/03/2026",
+          "Completata"
+        ],
+        [
+          "PR-035-105",
+          "Vela 05",
+          "Residenza",
+          "08/03/2026",
+          "22/03/2026",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una pratica di fantasia allo sportello e assegna una scadenza e uno stato iniziale.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ]
+    }
+  ]
+}
